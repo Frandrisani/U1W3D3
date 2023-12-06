@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  text-align: center;
+  margin-top: 50px; /* Aggiungi uno spazio sopra il modulo se necessario */
+}
+
+form {
+  display: inline-block;
+  text-align: left;
+  padding: 20px;
+  border: 1px solid #ccc; /* Aggiungi un bordo per evidenziare il modulo */
+  border-radius: 5px;
+  box-shadow: 0 0 10px #161a30; /* Aggiungi un'ombra per evidenziare il modulo */
+}
+
+header {
+  background-color: #31304d;
+}
+
+header h1 {
+  margin: 0;
+  padding-top: 1em;
+  padding-left: 1em;
+  padding-bottom: 0.2em;
+  color: #f0ece5;
+  font-size: 3em;
+}
+
+#inserisci {
+  align-items: center;
+  background-color: #31304d;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #f0ece5;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+#inserisci:hover,
+#inserisci:focus {
+  background-color: #161a30;
+  color: #ffffff;
+}
+
+#titoloETask {
+  margin: 2em auto;
+  border: 2px solid #31304d;
+}
+#titoloContenitore {
+  font-size: 2em;
+}
+
+#taskStile {
+  font-size: 1em;
+  padding-left: 0.5em;
+}
+
+/* #taskStileLine{
+    
+} */
